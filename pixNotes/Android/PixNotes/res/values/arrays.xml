@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="listicon">
+        <item>@drawable/new_project</item> 
+        <item>@drawable/open_project</item>
+        <item>@drawable/magane_project</item>
+        <item>@drawable/setting</item>
+    </array>
+    <array name="listtext">
+        <item>@string/str_new_project</item>
+        <item>@string/str_openproject</item>
+        <item>@string/str_manage_projectes</item>
+        <item>@string/str_setting</item>
+    </array>
+    <array name="listcolor">
+        <item>@color/text_color</item> 
+        <item>@color/text_color</item>
+        <item>@color/text_color</item>
+        <item>@color/text_color</item>
+    </array>
+</resources>

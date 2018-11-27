@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dslv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_parent"
+    android:background="@color/transparent_background_template"
+    >
+    
+    <LinearLayout
+        android:id="@+id/ln_btn_action"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@color/transparent"
+        android:orientation="horizontal" 
+        
+        >
+	        <RelativeLayout
+	            android:layout_width="0dp"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="50" 
+	            android:layout_gravity="center_vertical"
+	           >
+	            <ImageView
+	                android:id="@+id/img_capture"
+	                android:layout_width="@dimen/width_30dp"
+	                android:layout_height="@dimen/width_30dp"
+	                android:layout_alignParentRight="true"
+	                android:layout_marginRight="@dimen/margin_10dp"
+	                android:background="@drawable/camera"
+	                android:layout_centerVertical="true" />
+	            
+	            <View android:layout_width="fill_parent"
+	                android:layout_height="2dp"
+	                android:background="@drawable/line_dark"
+	                android:layout_alignParentBottom="true"/>
+	        </RelativeLayout>
+	
+	        <RelativeLayout
+	            android:layout_width="0dp"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="50" 
+	            android:layout_gravity="center_vertical">
+	            <ImageView
+	                android:id="@+id/img_insert_photo"
+	                android:layout_width="@dimen/width_30dp"
+	                android:layout_height="@dimen/width_30dp"
+	                android:layout_marginLeft="@dimen/margin_10dp"
+	                android:background="@drawable/insert_images"
+	                android:layout_centerVertical="true"  />
+	            
+	            <View android:layout_width="fill_parent"
+	                android:layout_height="2dp"
+	                android:background="@drawable/line_dark"
+	                android:layout_alignParentBottom="true"/>
+	            
+	        </RelativeLayout>
+    </LinearLayout>
+    
+    <com.mobeta.android.dslv.DragSortListView
+    android:id="@+id/list"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/ln_btn_action"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:paddingLeft="10dp"
+    android:layout_margin="10dp"
+    android:divider="@android:color/transparent"
+  	android:dividerHeight="@dimen/margin_15dp"
+    android:fastScrollEnabled="false"
+    dslv:drag_enabled="true"
+    dslv:collapsed_height="2dp"
+    dslv:drag_scroll_start="0.33"
+    dslv:max_drag_scroll_speed="0.5"
+    dslv:float_alpha="0.6"
+    dslv:slide_shuffle_speed="0.3"
+    dslv:track_drag_sort="false"
+    dslv:use_default_controller="true"
+    dslv:drag_handle_id="@id/drag_handle"
+    dslv:sort_enabled="true"
+    dslv:remove_enabled="true"
+    dslv:drag_start_mode="onLongPress"
+    dslv:remove_mode="flingRemove"
+    android:layout_centerInParent="true"
+    android:background="@color/transparent_background_template"
+    android:scrollbars="none"
+     />
+    
+ </RelativeLayout>
+

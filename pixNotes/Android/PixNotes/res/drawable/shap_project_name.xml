@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+	<stroke android:width="2dip"
+	    android:color="@android:color/black"></stroke>
+	<solid android:color="@color/gray_insert_Image_dialog_color"></solid>
+	<corners android:topLeftRadius="10dip"
+	    android:topRightRadius="10dip"
+	    android:bottomLeftRadius="10dip"
+	    android:bottomRightRadius="10dip"></corners>
+</shape>

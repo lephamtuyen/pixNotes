@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:background="@color/transparent_background_template"
+     >
+  <ImageView 
+    android:id="@+id/drag_handle"
+    android:layout_width="@dimen/image_width_size_100dp"
+   	android:layout_height="@dimen/image_height_size_120dp"
+   	android:layout_centerInParent="true"
+   /> 
+   <ImageView 
+    android:id="@+id/imgcurrentdraw"
+    android:layout_width="20dp"
+   	android:layout_height="20dp"
+    android:background="@drawable/eye"
+   	android:layout_toRightOf="@+id/drag_handle"
+   	android:layout_below="@+id/drag_handle"
+   	android:layout_marginLeft="-20dp"
+   	android:layout_marginTop="-20dp"
+   	android:visibility="gone"
+   /> 
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_theme" >
+       
+    <LinearLayout
+       android:id="@+id/ln_manager_content"
+   	   android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical" 
+       >
+	  	
+	  	<RelativeLayout
+	        android:id="@+id/rl_header"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/header_height"
+	        android:background="@color/background_header"
+	         >
+	          <RelativeLayout
+		        android:id="@+id/rl_back"
+		        android:layout_width="wrap_content"
+		        android:layout_height="@dimen/header_height"
+		        >
+	        <Button
+	            android:id="@+id/btn_back"
+	            android:layout_width="@dimen/width_40dp"
+	            android:layout_height="@dimen/width_40dp"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="@dimen/margin_10dp"
+	            android:background="@drawable/back" />
+			<View
+			    android:layout_width="30dp"
+			    android:layout_height="@dimen/header_height"
+			    android:layout_toRightOf="@+id/btn_back"
+			    />
+			</RelativeLayout>
+			
+			<TextView 
+			    android:id="@+id/tv_title"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="@dimen/margin_10dp"
+	            android:text="@string/str_manage_projectes"
+	            android:layout_centerInParent="true"
+	            android:textColor="@color/white"/>
+	    </RelativeLayout>   
+	  	
+	   <com.fortysevendeg.swipelistview.SwipeListView
+            android:id="@+id/example_lv_list"
+            android:listSelector="#00000000"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            swipe:swipeFrontView="@+id/front"
+            swipe:swipeBackView="@+id/back"
+            swipe:swipeDrawableChecked="@drawable/choice_selected"
+            swipe:swipeDrawableUnchecked="@drawable/choice_unselected"
+            swipe:swipeCloseAllItemsWhenMoveList="true"
+            swipe:swipeMode="both"
+            android:scrollbars="none"
+            android:layout_marginLeft="@dimen/margin_10dp"
+       		android:layout_marginRight="@dimen/margin_10dp"
+       		android:divider="@drawable/line_dark"
+       		android:dividerHeight="2dp"
+        /> 
+    	
+    	
+    </LinearLayout>
+    
+</RelativeLayout>

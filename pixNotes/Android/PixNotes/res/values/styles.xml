@@ -1,0 +1,84 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+     <style name="SwitchText">
+    <item name="android:paddingLeft">8px</item>
+    <item name="android:paddingBottom">8px</item>
+    <item name="android:textColor">#FFeeFFee</item>
+    <item name="android:textSize">24dip</item>
+    <item name="android:shadowColor">#BB000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">1</item>
+  </style>
+
+ 
+ 
+
+	 <style name="mySwitchStyle">
+        <item name="track">@drawable/switch_track_green</item>
+        <item name="thumb">@drawable/background_fenced</item>  
+        <item name="switchTextAppearanceAttrib">@style/mySwitchTextAppearance</item>
+        <item name="textOn">ON</item>
+        <item name="textOff">OFF</item>
+        <item name="pushStyle">false</item>
+        <item name="textOnThumb">true</item>
+        <item name="thumbExtraMovement">0dp</item>
+        <item name="thumbTextPadding">6dp</item>
+        <item name="trackTextPadding">6dp</item>
+        <item name="switchMinWidth">69dp</item>
+        <item name="switchMinHeight">36dp</item>
+        <item name="switchPadding">6dp</item>
+    </style>
+    
+    <style name="mySwitchTextAppearance">
+        <item name="textColor">#FFeeFFee</item>
+        <item name="textColorHighlight">#FFeeFFee</item>
+        <item name="textColorHint">#FFeeFFee</item>
+        <item name="textColorLink">#FFeeFFee</item>
+        <item name="textSize">16sp</item>
+        <item name="textStyle">normal</item>
+    </style>
+    
+    <style name="Theme.Transparent" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">false</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  	</style>
+    
+    <style name="mySeekBar">
+    <item name="android:indeterminateOnly">false</item>
+    <item name="android:progressDrawable">@drawable/seekbar_progress</item>
+    <item name="android:indeterminateDrawable">@android:drawable/progress_horizontal</item>
+    <item name="android:minHeight">10dip</item>
+    <item name="android:maxHeight">10dip</item>
+    <item name="android:thumbOffset">0dp</item>
+    <item name="android:focusable">true</item>
+	</style>
+	
+      <style name="progressDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

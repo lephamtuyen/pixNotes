@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.pixnotes"
+    android:id="@+id/rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_capture_image"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ln_btn_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shap_project_name"
+        android:orientation="vertical" 
+        android:layout_marginLeft="@dimen/margin_30dp"
+        android:layout_marginRight="@dimen/margin_30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_220dp">
+       	
+        <EditText
+	    android:id="@+id/edt_projectname"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/str_project_name"
+	    android:layout_marginLeft="@dimen/margin_20dp"
+	    android:layout_marginRight="@dimen/margin_20dp"
+	    android:layout_marginTop="@dimen/margin_20dp"
+	    android:capitalize="sentences"
+	    />
+        
+        <LinearLayout
+        android:id="@+id/ln_btn_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal" 
+        android:layout_marginTop="@dimen/margin_15dp">
+	        <RelativeLayout
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="50"
+	            android:layout_marginRight="@dimen/margin_20dp" >
+	
+	            <ImageView
+	                android:id="@+id/img_capture"
+	                android:layout_width="@dimen/width_30dp"
+	                android:layout_height="@dimen/width_30dp"
+	                android:layout_alignParentRight="true"
+	                android:layout_marginRight="@dimen/margin_20dp"
+	                android:background="@drawable/camera" />
+	            
+	            <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textStyle="bold"
+				    android:text="@string/str_capture"
+				    android:layout_below="@+id/img_capture"
+				    android:layout_alignParentRight="true"
+				   android:layout_marginRight="@dimen/margin_10dp"
+				   android:layout_marginTop="@dimen/margin_8dp"
+				/>
+	        </RelativeLayout>
+	
+	        <RelativeLayout
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="50" >
+	
+	            <ImageView
+	                android:id="@+id/img_insert_photo"
+	                android:layout_width="@dimen/width_30dp"
+	                android:layout_height="@dimen/width_30dp"
+	                android:layout_marginLeft="@dimen/margin_20dp"
+	                android:background="@drawable/insert_images" />
+	            
+	            <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textStyle="bold"
+				    android:text="@string/str_insert_photo"
+				    android:layout_below="@+id/img_insert_photo"
+				    android:layout_marginLeft="@dimen/margin_2dp"
+				    android:layout_marginTop="@dimen/margin_8dp"
+				/>
+	            
+	        </RelativeLayout>
+        </LinearLayout>
+        
+        <Button  
+            android:id="@+id/btn_start"
+            android:layout_width="fill_parent"
+		    android:layout_height="@dimen/height_40dp"
+		    android:background="@drawable/button"
+		    android:text="@string/str_start"
+		    android:layout_marginLeft="@dimen/margin_40dp"
+            android:layout_marginRight="@dimen/margin_40dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+				 />
+        <View android:layout_width="fill_parent"
+            android:layout_height="@dimen/margin_20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

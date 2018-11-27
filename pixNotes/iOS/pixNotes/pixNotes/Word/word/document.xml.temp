@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document
+	xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+	xmlns:mo="http://schemas.microsoft.com/office/mac/office/2008/main"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:mv="urn:schemas-microsoft-com:mac:vml" xmlns:o="urn:schemas-microsoft-com:office:office"
+	xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+	xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
+	xmlns:v="urn:schemas-microsoft-com:vml"
+	xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+	xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+	xmlns:w10="urn:schemas-microsoft-com:office:word"
+	xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+	xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+	xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+	xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
+	xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
+	xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+	mc:Ignorable="w14 wp14">
+	<w:body>
+		<w:p>
+			<w:r>
+				<w:t>System version: 6.2.1</w:t>
+			</w:r>
+		</w:p>
+		<w:p>
+			<w:r>
+				<w:t>Model: iPod touch</w:t>
+			</w:r>
+		</w:p>
+		<w:p>
+			<w:r>
+				<w:t>Resolution: 320 x 480</w:t>
+			</w:r>
+		</w:p>
+		<w:p/>
+		<w:p/>
+		<w:p>
+			<w:pPr>
+				<w:jc w:val="center" />
+			</w:pPr>
+			<w:r>
+				<w:rPr>
+					<w:noProof />
+				</w:rPr>
+				<w:drawing>
+					<wp:inline distT="0" distB="0" distL="0" distR="0">
+						<wp:extent cx="4065270" cy="7216775" />
+						<wp:effectExtent l="0" t="0" r="0" b="0" />
+						<wp:docPr id="3" name=""/>
+						<wp:cNvGraphicFramePr>
+							<a:graphicFrameLocks
+                            xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                            noChangeAspect="1" />
+						</wp:cNvGraphicFramePr>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData
+								uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+								<pic:pic
+									xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+									<pic:nvPicPr>
+										<pic:cNvPr id="0" name=""/>
+										<pic:cNvPicPr>
+											<a:picLocks noChangeAspect="1" noChangeArrowheads="1" />
+										</pic:cNvPicPr>
+									</pic:nvPicPr>
+									<pic:blipFill>
+										<a:blip r:embed="rId5"/>
+										<a:srcRect />
+										<a:stretch>
+											<a:fitRect />
+										</a:stretch>
+									</pic:blipFill>
+									<pic:spPr bwMode="auto">
+										<a:xfrm>
+											<a:off x="0" y="0" />
+											<a:ext cx="4065270" cy="7216775" />
+										</a:xfrm>
+										<a:prstGeom prst="rect">
+											<a:avLst />
+										</a:prstGeom>
+										<a:noFill />
+										<a:ln>
+											<a:noFill />
+										</a:ln>
+									</pic:spPr>
+								</pic:pic>
+							</a:graphicData>
+						</a:graphic>
+					</wp:inline>
+				</w:drawing>
+			</w:r>
+		</w:p>
+		<w:p/>
+		<w:p>
+			<w:r>
+				<w:t>Hello world 1</w:t>
+			</w:r>
+		</w:p>
+		<w:p/>
+		<w:p/>
+		<w:p/>
+		<w:p/>
+		<w:p/>
+		<w:p/>
+		<w:p/>
+		<w:p>
+			<w:pPr>
+				<w:jc w:val="center" />
+			</w:pPr>
+			<w:r>
+				<w:rPr>
+					<w:noProof />
+				</w:rPr>
+				<w:drawing>
+					<wp:inline distT="0" distB="0" distL="0" distR="0">
+						<wp:extent cx="4065270" cy="7216775" />
+						<wp:effectExtent l="0" t="0" r="0" b="0" />
+						<wp:docPr id="4" name=""/>
+						<wp:cNvGraphicFramePr>
+							<a:graphicFrameLocks
+                            xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                            noChangeAspect="1" />
+						</wp:cNvGraphicFramePr>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData
+								uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+								<pic:pic
+									xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+									<pic:nvPicPr>
+										<pic:cNvPr id="0" name=""/>
+										<pic:cNvPicPr>
+											<a:picLocks noChangeAspect="1" noChangeArrowheads="1" />
+										</pic:cNvPicPr>
+									</pic:nvPicPr>
+									<pic:blipFill>
+										<a:blip r:embed="rId5"/>
+										<a:srcRect />
+										<a:stretch>
+											<a:fillRect />
+										</a:stretch>
+									</pic:blipFill>
+									<pic:spPr bwMode="auto">
+										<a:xfrm>
+											<a:off x="0" y="0" />
+											<a:ext cx="4065270" cy="7216775" />
+										</a:xfrm>
+										<a:prstGeom prst="rect">
+											<a:avLst />
+										</a:prstGeom>
+										<a:noFill />
+										<a:ln>
+											<a:noFill />
+										</a:ln>
+									</pic:spPr>
+								</pic:pic>
+							</a:graphicData>
+						</a:graphic>
+					</wp:inline>
+				</w:drawing>
+			</w:r>
+		</w:p>
+		<w:p/>
+		<w:p>
+			<w:r>
+				<w:t>Hello world 2</w:t>
+			</w:r>
+		</w:p>
+		<w:sectPr w:rsidR="003579B0" w:rsidSect="000F4DE3">
+			<w:pgSz w:w="11900" w:h="16840" />
+			<w:pgMar w:top="1440" w:right="1800" w:bottom="1440" w:left="1800"
+            w:header="708" w:footer="708" w:gutter="0" />
+			<w:cols w:space="708" />
+			<w:docGrid w:linePitch="360" />
+		</w:sectPr>
+	</w:body>
+</w:document>

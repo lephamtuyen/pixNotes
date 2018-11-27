@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="0" timestamp="1386043134679" analysisTimestamp="1386043134735" release="">
+  <Project projectName="">
+    <Jar>/Volumes/Data/Project/rd_products/pixNotes/Android/PixNotes/bin</Jar>
+    <AuxClasspathEntry>/Volumes/Data/Project/rd_products/pixNotes/Android/PixNotes/${android.jar}</AuxClasspathEntry>
+  </Project>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" start="34" end="1007" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+    </Class>
+    <Method classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" name="executeKeyEvent" signature="(Landroid/view/KeyEvent;)Z" isStatic="false">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" start="936" end="958" startBytecode="0" endBytecode="217" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+    </Method>
+    <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" start="938" end="952" startBytecode="13" endBytecode="105" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" start="34" end="1007" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+    </Class>
+    <Method classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" name="onInterceptTouchEvent" signature="(Landroid/view/MotionEvent;)Z" isStatic="false">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" start="616" end="663" startBytecode="0" endBytecode="437" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+    </Method>
+    <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" start="631" end="653" startBytecode="46" endBytecode="208" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" start="34" end="1007" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+    </Class>
+    <Method classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" name="onTouchEvent" signature="(Landroid/view/MotionEvent;)Z" isStatic="false">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" start="670" end="777" startBytecode="0" endBytecode="1109" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+    </Method>
+    <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" start="686" end="774" startBytecode="58" endBytecode="589" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$2">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$2" start="170" end="183" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+    </Class>
+    <Method classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$2" name="onPageSelected" signature="(I)V" isStatic="false">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$2" start="172" end="183" startBytecode="0" endBytecode="133" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+    </Method>
+    <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$2" start="173" end="179" startBytecode="11" endBytecode="60" sourcefile="CustomViewAbove.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" abbrev="REC" category="STYLE">
+    <Class classname="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu" start="33" end="1029" sourcefile="SlidingMenu.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java"/>
+    </Class>
+    <Method classname="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu" name="setBehindWidth" signature="(I)V" isStatic="false">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu" start="636" end="649" startBytecode="0" endBytecode="296" sourcefile="SlidingMenu.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java"/>
+    </Method>
+    <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu" start="645" end="645" startBytecode="80" endBytecode="80" sourcefile="SlidingMenu.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu" start="33" end="1029" sourcefile="SlidingMenu.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java"/>
+    </Class>
+    <Method classname="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu" name="attachToActivity" signature="(Landroid/app/Activity;IZ)V" isStatic="false">
+      <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu" start="310" end="345" startBytecode="0" endBytecode="439" sourcefile="SlidingMenu.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java"/>
+    </Method>
+    <SourceLine classname="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu" start="321" end="342" startBytecode="68" endBytecode="210" sourcefile="SlidingMenu.java" sourcepath="com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.CaptureImageActivity">
+      <SourceLine classname="com.pixnotes.CaptureImageActivity" start="33" end="293" sourcefile="CaptureImageActivity.java" sourcepath="com/pixnotes/CaptureImageActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.CaptureImageActivity" name="onClick" signature="(Landroid/view/View;)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.CaptureImageActivity" start="214" end="223" startBytecode="0" endBytecode="111" sourcefile="CaptureImageActivity.java" sourcepath="com/pixnotes/CaptureImageActivity.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.CaptureImageActivity" start="214" end="219" startBytecode="4" endBytecode="42" sourcefile="CaptureImageActivity.java" sourcepath="com/pixnotes/CaptureImageActivity.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_USING_REMOVEALL_TO_CLEAR_COLLECTION" priority="2" abbrev="DMI" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.CaptureImageActivity$ImageAdapter">
+      <SourceLine classname="com.pixnotes.CaptureImageActivity$ImageAdapter" start="159" end="205" sourcefile="CaptureImageActivity.java" sourcepath="com/pixnotes/CaptureImageActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.CaptureImageActivity$ImageAdapter" name="updateListImage" signature="(Ljava/util/ArrayList;)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.CaptureImageActivity$ImageAdapter" start="170" end="173" startBytecode="0" endBytecode="13" sourcefile="CaptureImageActivity.java" sourcepath="com/pixnotes/CaptureImageActivity.java"/>
+    </Method>
+    <Method classname="java.util.ArrayList" name="removeAll" signature="(Ljava/util/Collection;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.ArrayList" sourcefile="ArrayList.java" sourcepath="java/util/ArrayList.java"/>
+    </Method>
+    <Field classname="com.pixnotes.CaptureImageActivity$ImageAdapter" name="listPathImage" signature="Ljava/util/ArrayList;" sourceSignature="Ljava/util/ArrayList&lt;Ljava/lang/String;&gt;;" isStatic="false" role="FIELD_INVOKED_ON">
+      <SourceLine classname="com.pixnotes.CaptureImageActivity$ImageAdapter" sourcefile="CaptureImageActivity.java" sourcepath="com/pixnotes/CaptureImageActivity.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.CaptureImageActivity$ImageAdapter" start="170" end="170" startBytecode="8" endBytecode="8" sourcefile="CaptureImageActivity.java" sourcepath="com/pixnotes/CaptureImageActivity.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.pixnotes.CaptureImageActivity$ImageAdapter">
+      <SourceLine classname="com.pixnotes.CaptureImageActivity$ImageAdapter" start="159" end="205" sourcefile="CaptureImageActivity.java" sourcepath="com/pixnotes/CaptureImageActivity.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UrF" category="STYLE">
+    <Class classname="com.pixnotes.CaptureImageActivity$ImageAdapter">
+      <SourceLine classname="com.pixnotes.CaptureImageActivity$ImageAdapter" start="159" end="205" sourcefile="CaptureImageActivity.java" sourcepath="com/pixnotes/CaptureImageActivity.java"/>
+    </Class>
+    <Field classname="com.pixnotes.CaptureImageActivity$ImageAdapter" name="mImageLoader" signature="Lcom/pixnotes/imageloader/ImageLoader;" isStatic="false">
+      <SourceLine classname="com.pixnotes.CaptureImageActivity$ImageAdapter" sourcefile="CaptureImageActivity.java" sourcepath="com/pixnotes/CaptureImageActivity.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.CaptureImageActivity$ImageAdapter" start="165" end="165" startBytecode="39" endBytecode="39" sourcefile="CaptureImageActivity.java" sourcepath="com/pixnotes/CaptureImageActivity.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.ExportActivity">
+      <SourceLine classname="com.pixnotes.ExportActivity" start="18" end="126" sourcefile="ExportActivity.java" sourcepath="com/pixnotes/ExportActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.ExportActivity" name="onClick" signature="(Landroid/view/View;)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.ExportActivity" start="109" end="126" startBytecode="0" endBytecode="183" sourcefile="ExportActivity.java" sourcepath="com/pixnotes/ExportActivity.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.ExportActivity" start="109" end="122" startBytecode="4" endBytecode="90" sourcefile="ExportActivity.java" sourcepath="com/pixnotes/ExportActivity.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" abbrev="RCN" category="STYLE">
+    <Class classname="com.pixnotes.MainActivity">
+      <SourceLine classname="com.pixnotes.MainActivity" start="30" end="412" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.MainActivity" name="openScreen" signature="(Landroid/os/Bundle;)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.MainActivity" start="311" end="341" startBytecode="0" endBytecode="335" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Method>
+    <LocalVariable name="bundle" register="1" pc="23" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.pixnotes.MainActivity" start="318" end="318" startBytecode="24" endBytecode="24" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.MainActivity">
+      <SourceLine classname="com.pixnotes.MainActivity" start="30" end="412" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.MainActivity" name="openSceneFromMenu" signature="(I)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.MainActivity" start="202" end="221" startBytecode="0" endBytecode="203" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.MainActivity" start="203" end="214" startBytecode="4" endBytecode="58" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.MainActivity$1">
+      <SourceLine classname="com.pixnotes.MainActivity$1" start="80" end="100" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.MainActivity$1" name="onItemClick" signature="(Landroid/widget/AdapterView;Landroid/view/View;IJ)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.MainActivity$1" start="86" end="100" startBytecode="0" endBytecode="182" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.MainActivity$1" start="86" end="97" startBytecode="1" endBytecode="57" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+  </BugInstance>
+  <BugInstance type="DM_GC" priority="1" abbrev="Dm" category="PERFORMANCE">
+    <Class classname="com.pixnotes.MainActivity$BehindMenuAdapter">
+      <SourceLine classname="com.pixnotes.MainActivity$BehindMenuAdapter" start="231" end="287" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.MainActivity$BehindMenuAdapter" name="ClearData" signature="()V" isStatic="false">
+      <SourceLine classname="com.pixnotes.MainActivity$BehindMenuAdapter" start="276" end="287" startBytecode="0" endBytecode="163" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.MainActivity$BehindMenuAdapter" start="286" end="286" startBytecode="62" endBytecode="62" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+  </BugInstance>
+  <BugInstance type="GC_UNRELATED_TYPES" priority="1" abbrev="GC" category="CORRECTNESS">
+    <Class classname="com.pixnotes.MainActivity$BehindMenuAdapter">
+      <SourceLine classname="com.pixnotes.MainActivity$BehindMenuAdapter" start="231" end="287" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.MainActivity$BehindMenuAdapter" name="ClearData" signature="()V" isStatic="false">
+      <SourceLine classname="com.pixnotes.MainActivity$BehindMenuAdapter" start="276" end="287" startBytecode="0" endBytecode="31" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Integer;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Integer" start="37" end="1194" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="92" end="2973" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="java.util.HashMap" name="get" signature="(Ljava/lang/Object;)Ljava/lang/Object;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.HashMap" start="298" end="308" startBytecode="0" endBytecode="134" sourcefile="HashMap.java" sourcepath="java/util/HashMap.java"/>
+    </Method>
+    <Field classname="com.pixnotes.MainActivity$BehindMenuAdapter" name="mHistoryClearImageViewItem" signature="Ljava/util/HashMap;" sourceSignature="Ljava/util/HashMap&lt;Ljava/lang/String;Landroid/widget/ImageView;&gt;;" isStatic="false" role="FIELD_INVOKED_ON">
+      <SourceLine classname="com.pixnotes.MainActivity$BehindMenuAdapter" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Field>
+    <Method classname="java.lang.Integer" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.Integer" start="747" end="750" startBytecode="0" endBytecode="60" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.MainActivity$BehindMenuAdapter" start="278" end="278" startBytecode="28" endBytecode="28" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.MainActivity$BehindMenuAdapter">
+      <SourceLine classname="com.pixnotes.MainActivity$BehindMenuAdapter" start="231" end="287" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.MainActivity$BehindMenuAdapter" name="ClearData" signature="()V" isStatic="false">
+      <SourceLine classname="com.pixnotes.MainActivity$BehindMenuAdapter" start="276" end="287" startBytecode="0" endBytecode="163" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.pixnotes.MainActivity$BehindMenuAdapter">
+      <SourceLine classname="com.pixnotes.MainActivity$BehindMenuAdapter" start="231" end="287" sourcefile="MainActivity.java" sourcepath="com/pixnotes/MainActivity.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="MS_MUTABLE_ARRAY" priority="2" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.pixnotes.R$styleable">
+      <SourceLine classname="com.pixnotes.R$styleable" start="709" end="1305" sourcefile="R.java" sourcepath="com/pixnotes/R.java"/>
+    </Class>
+    <Field classname="com.pixnotes.R$styleable" name="MySwitch" signature="[I" isStatic="true">
+      <SourceLine classname="com.pixnotes.R$styleable" sourcefile="R.java" sourcepath="com/pixnotes/R.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.R$styleable" start="756" end="756" startBytecode="112" endBytecode="112" sourcefile="R.java" sourcepath="com/pixnotes/R.java"/>
+  </BugInstance>
+  <BugInstance type="MS_MUTABLE_ARRAY" priority="2" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.pixnotes.R$styleable">
+      <SourceLine classname="com.pixnotes.R$styleable" start="709" end="1305" sourcefile="R.java" sourcepath="com/pixnotes/R.java"/>
+    </Class>
+    <Field classname="com.pixnotes.R$styleable" name="SlidingMenu" signature="[I" isStatic="true">
+      <SourceLine classname="com.pixnotes.R$styleable" sourcefile="R.java" sourcepath="com/pixnotes/R.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.R$styleable" start="1080" end="1080" startBytecode="197" endBytecode="197" sourcefile="R.java" sourcepath="com/pixnotes/R.java"/>
+  </BugInstance>
+  <BugInstance type="MS_MUTABLE_ARRAY" priority="2" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.pixnotes.R$styleable">
+      <SourceLine classname="com.pixnotes.R$styleable" start="709" end="1305" sourcefile="R.java" sourcepath="com/pixnotes/R.java"/>
+    </Class>
+    <Field classname="com.pixnotes.R$styleable" name="mySwitchTextAppearanceAttrib" signature="[I" isStatic="true">
+      <SourceLine classname="com.pixnotes.R$styleable" sourcefile="R.java" sourcepath="com/pixnotes/R.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.R$styleable" start="1305" end="1305" startBytecode="246" endBytecode="246" sourcefile="R.java" sourcepath="com/pixnotes/R.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.SendEmailActivity">
+      <SourceLine classname="com.pixnotes.SendEmailActivity" start="16" end="123" sourcefile="SendEmailActivity.java" sourcepath="com/pixnotes/SendEmailActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.SendEmailActivity" name="onClick" signature="(Landroid/view/View;)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.SendEmailActivity" start="106" end="123" startBytecode="0" endBytecode="183" sourcefile="SendEmailActivity.java" sourcepath="com/pixnotes/SendEmailActivity.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.SendEmailActivity" start="106" end="119" startBytecode="4" endBytecode="90" sourcefile="SendEmailActivity.java" sourcepath="com/pixnotes/SendEmailActivity.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.SettingActivity">
+      <SourceLine classname="com.pixnotes.SettingActivity" start="19" end="237" sourcefile="SettingActivity.java" sourcepath="com/pixnotes/SettingActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.SettingActivity" name="onClick" signature="(Landroid/view/View;)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.SettingActivity" start="197" end="237" startBytecode="0" endBytecode="351" sourcefile="SettingActivity.java" sourcepath="com/pixnotes/SettingActivity.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.SettingActivity" start="197" end="232" startBytecode="4" endBytecode="202" sourcefile="SettingActivity.java" sourcepath="com/pixnotes/SettingActivity.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.SettingActivity">
+      <SourceLine classname="com.pixnotes.SettingActivity" start="19" end="237" sourcefile="SettingActivity.java" sourcepath="com/pixnotes/SettingActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.SettingActivity" name="setColorType" signature="(I)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.SettingActivity" start="154" end="186" startBytecode="0" endBytecode="329" sourcefile="SettingActivity.java" sourcepath="com/pixnotes/SettingActivity.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.SettingActivity" start="160" end="183" startBytecode="49" endBytecode="180" sourcefile="SettingActivity.java" sourcepath="com/pixnotes/SettingActivity.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.SettingActivity">
+      <SourceLine classname="com.pixnotes.SettingActivity" start="19" end="237" sourcefile="SettingActivity.java" sourcepath="com/pixnotes/SettingActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.SettingActivity" name="setGridType" signature="(I)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.SettingActivity" start="128" end="150" startBytecode="0" endBytecode="241" sourcefile="SettingActivity.java" sourcepath="com/pixnotes/SettingActivity.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.SettingActivity" start="132" end="147" startBytecode="33" endBytecode="124" sourcefile="SettingActivity.java" sourcepath="com/pixnotes/SettingActivity.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.SettingPaintActivity">
+      <SourceLine classname="com.pixnotes.SettingPaintActivity" start="15" end="210" sourcefile="SettingPaintActivity.java" sourcepath="com/pixnotes/SettingPaintActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.SettingPaintActivity" name="onClick" signature="(Landroid/view/View;)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.SettingPaintActivity" start="182" end="203" startBytecode="0" endBytecode="229" sourcefile="SettingPaintActivity.java" sourcepath="com/pixnotes/SettingPaintActivity.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.SettingPaintActivity" start="182" end="199" startBytecode="4" endBytecode="128" sourcefile="SettingPaintActivity.java" sourcepath="com/pixnotes/SettingPaintActivity.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.SettingPaintActivity">
+      <SourceLine classname="com.pixnotes.SettingPaintActivity" start="15" end="210" sourcefile="SettingPaintActivity.java" sourcepath="com/pixnotes/SettingPaintActivity.java"/>
+    </Class>
+    <Method classname="com.pixnotes.SettingPaintActivity" name="setColorType" signature="(I)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.SettingPaintActivity" start="137" end="177" startBytecode="0" endBytecode="475" sourcefile="SettingPaintActivity.java" sourcepath="com/pixnotes/SettingPaintActivity.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.SettingPaintActivity" start="144" end="173" startBytecode="51" endBytecode="276" sourcefile="SettingPaintActivity.java" sourcepath="com/pixnotes/SettingPaintActivity.java"/>
+  </BugInstance>
+  <BugInstance type="UPM_UNCALLED_PRIVATE_METHOD" priority="2" abbrev="UPM" category="PERFORMANCE">
+    <Class classname="com.pixnotes.common.Geometry">
+      <SourceLine classname="com.pixnotes.common.Geometry" start="8" end="1640" sourcefile="Geometry.java" sourcepath="com/pixnotes/common/Geometry.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.Geometry" name="isBetween" signature="(III)Z" isStatic="true">
+      <SourceLine classname="com.pixnotes.common.Geometry" start="15" end="15" startBytecode="0" endBytecode="100" sourcefile="Geometry.java" sourcepath="com/pixnotes/common/Geometry.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
+    <Class classname="com.pixnotes.common.MySwitch">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="76" end="1484" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.MySwitch" name="onLayout" signature="(ZIIII)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="910" end="1103" startBytecode="0" endBytecode="675" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Method>
+    <LocalVariable name="switchVerticalMid" register="10" pc="919" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="1005" end="1005" startBytecode="917" endBytecode="917" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="switchVerticalMid"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
+    <Class classname="com.pixnotes.common.MySwitch">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="76" end="1484" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.MySwitch" name="onMeasure" signature="(II)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="773" end="904" startBytecode="0" endBytecode="452" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Method>
+    <LocalVariable name="heightSize" register="6" pc="876" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="883" end="883" startBytecode="874" endBytecode="874" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="879" end="879" startBytecode="867" endBytecode="867" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="heightSize"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
+    <Class classname="com.pixnotes.common.MySwitch">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="76" end="1484" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.MySwitch" name="onMeasure" signature="(II)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="773" end="904" startBytecode="0" endBytecode="452" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Method>
+    <LocalVariable name="widthSize" register="5" pc="820" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="869" end="869" startBytecode="818" endBytecode="818" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="865" end="865" startBytecode="811" endBytecode="811" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="widthSize"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" abbrev="ICAST" category="STYLE">
+    <Class classname="com.pixnotes.common.MySwitch">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="76" end="1484" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.MySwitch" name="getTargetCheckedState" signature="()Z" isStatic="false">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="720" end="720" startBytecode="0" endBytecode="62" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="720" end="720" startBytecode="10" endBytecode="10" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" abbrev="ICAST" category="STYLE">
+    <Class classname="com.pixnotes.common.MySwitch">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="76" end="1484" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.MySwitch" name="onDraw" signature="(Landroid/graphics/Canvas;)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="1112" end="1423" startBytecode="0" endBytecode="3729" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="1150" end="1150" startBytecode="317" endBytecode="317" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="1307" end="1307" startBytecode="1688" endBytecode="1688" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="1325" end="1325" startBytecode="1898" endBytecode="1898" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="1335" end="1335" startBytecode="1975" endBytecode="1975" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="1362" end="1362" startBytecode="2140" endBytecode="2140" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="1374" end="1374" startBytecode="2258" endBytecode="2258" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="1385" end="1385" startBytecode="2363" endBytecode="2363" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="1397" end="1397" startBytecode="2477" endBytecode="2477" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" abbrev="ICAST" category="STYLE">
+    <Class classname="com.pixnotes.common.MySwitch">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="76" end="1484" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.MySwitch" name="onTouchEvent" signature="(Landroid/view/MotionEvent;)Z" isStatic="false">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="498" end="581" startBytecode="0" endBytecode="771" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="523" end="523" startBytecode="149" endBytecode="149" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.common.MySwitch">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="76" end="1484" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.MySwitch" name="onTouchEvent" signature="(Landroid/view/MotionEvent;)Z" isStatic="false">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="498" end="581" startBytecode="0" endBytecode="771" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="502" end="573" startBytecode="14" endBytecode="379" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.common.MySwitch">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="76" end="1484" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.MySwitch" name="setSwitchTypefaceByIndex" signature="(II)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="300" end="316" startBytecode="0" endBytecode="156" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="301" end="311" startBytecode="3" endBytecode="45" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.pixnotes.common.MySwitch">
+      <SourceLine classname="com.pixnotes.common.MySwitch" start="76" end="1484" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Class>
+    <Field classname="com.pixnotes.common.MySwitch" name="onOrOff" signature="Z" isStatic="false">
+      <SourceLine classname="com.pixnotes.common.MySwitch" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.common.MySwitch" start="97" end="97" startBytecode="24" endBytecode="24" sourcefile="MySwitch.java" sourcepath="com/pixnotes/common/MySwitch.java"/>
+  </BugInstance>
+  <BugInstance type="DM_GC" priority="1" abbrev="Dm" category="PERFORMANCE">
+    <Class classname="com.pixnotes.common.Utilities">
+      <SourceLine classname="com.pixnotes.common.Utilities" start="30" end="266" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.Utilities" name="decodeFile" signature="(ZLjava/io/File;)Landroid/graphics/Bitmap;" isStatic="true">
+      <SourceLine classname="com.pixnotes.common.Utilities" start="180" end="243" startBytecode="0" endBytecode="768" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.common.Utilities" start="222" end="222" startBytecode="282" endBytecode="282" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+  </BugInstance>
+  <BugInstance type="DM_GC" priority="1" abbrev="Dm" category="PERFORMANCE">
+    <Class classname="com.pixnotes.common.Utilities">
+      <SourceLine classname="com.pixnotes.common.Utilities" start="30" end="266" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.Utilities" name="recycleBitmap" signature="(Landroid/graphics/Bitmap;)V" isStatic="true">
+      <SourceLine classname="com.pixnotes.common.Utilities" start="75" end="80" startBytecode="0" endBytecode="71" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.common.Utilities" start="79" end="79" startBytecode="10" endBytecode="10" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+  </BugInstance>
+  <BugInstance type="DM_GC" priority="1" abbrev="Dm" category="PERFORMANCE">
+    <Class classname="com.pixnotes.common.Utilities">
+      <SourceLine classname="com.pixnotes.common.Utilities" start="30" end="266" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.Utilities" name="recycleImageView" signature="(Landroid/widget/ImageView;Z)V" isStatic="true">
+      <SourceLine classname="com.pixnotes.common.Utilities" start="38" end="56" startBytecode="0" endBytecode="167" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.common.Utilities" start="53" end="53" startBytecode="48" endBytecode="48" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+  </BugInstance>
+  <BugInstance type="DM_GC" priority="1" abbrev="Dm" category="PERFORMANCE">
+    <Class classname="com.pixnotes.common.Utilities">
+      <SourceLine classname="com.pixnotes.common.Utilities" start="30" end="266" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.Utilities" name="recycleView" signature="(Landroid/view/View;)V" isStatic="true">
+      <SourceLine classname="com.pixnotes.common.Utilities" start="59" end="72" startBytecode="0" endBytecode="140" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.common.Utilities" start="70" end="70" startBytecode="39" endBytecode="39" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" abbrev="REC" category="STYLE">
+    <Class classname="com.pixnotes.common.Utilities">
+      <SourceLine classname="com.pixnotes.common.Utilities" start="30" end="266" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+    </Class>
+    <Method classname="com.pixnotes.common.Utilities" name="decodeFile" signature="(ZLjava/io/File;)Landroid/graphics/Bitmap;" isStatic="true">
+      <SourceLine classname="com.pixnotes.common.Utilities" start="180" end="243" startBytecode="0" endBytecode="768" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.common.Utilities" start="230" end="230" startBytecode="343" endBytecode="343" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java"/>
+    <SourceLine classname="com.pixnotes.common.Utilities" start="240" end="240" startBytecode="384" endBytecode="384" sourcefile="Utilities.java" sourcepath="com/pixnotes/common/Utilities.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.imageloader.FileCache">
+      <SourceLine classname="com.pixnotes.imageloader.FileCache" start="13" end="40" sourcefile="FileCache.java" sourcepath="com/pixnotes/imageloader/FileCache.java"/>
+    </Class>
+    <Method classname="com.pixnotes.imageloader.FileCache" name="&lt;init&gt;" signature="(Landroid/content/Context;)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.imageloader.FileCache" start="13" end="21" startBytecode="0" endBytecode="143" sourcefile="FileCache.java" sourcepath="com/pixnotes/imageloader/FileCache.java"/>
+    </Method>
+    <Method classname="java.io.File" name="mkdirs" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1181" end="1195" startBytecode="0" endBytecode="138" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.imageloader.FileCache" start="20" end="20" startBytecode="63" endBytecode="63" sourcefile="FileCache.java" sourcepath="com/pixnotes/imageloader/FileCache.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.imageloader.FileCache">
+      <SourceLine classname="com.pixnotes.imageloader.FileCache" start="13" end="40" sourcefile="FileCache.java" sourcepath="com/pixnotes/imageloader/FileCache.java"/>
+    </Class>
+    <Method classname="com.pixnotes.imageloader.FileCache" name="clear" signature="()V" isStatic="false">
+      <SourceLine classname="com.pixnotes.imageloader.FileCache" start="35" end="40" startBytecode="0" endBytecode="161" sourcefile="FileCache.java" sourcepath="com/pixnotes/imageloader/FileCache.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="900" end="904" startBytecode="0" endBytecode="59" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.imageloader.FileCache" start="39" end="39" startBytecode="35" endBytecode="35" sourcefile="FileCache.java" sourcepath="com/pixnotes/imageloader/FileCache.java"/>
+  </BugInstance>
+  <BugInstance type="DM_GC" priority="1" abbrev="Dm" category="PERFORMANCE">
+    <Class classname="com.pixnotes.imageloader.ImageLoader">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="24" end="368" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Class>
+    <Method classname="com.pixnotes.imageloader.ImageLoader" name="decodeFile" signature="(ZLjava/io/File;II)Landroid/graphics/Bitmap;" isStatic="false">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="183" end="248" startBytecode="0" endBytecode="819" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="226" end="226" startBytecode="293" endBytecode="293" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.imageloader.ImageLoader">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="24" end="368" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Class>
+    <Method classname="com.pixnotes.imageloader.ImageLoader" name="DisplayImageView" signature="(ZILjava/lang/String;Landroid/widget/ImageView;II)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="39" end="52" startBytecode="0" endBytecode="217" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="com.pixnotes.imageloader.ImageLoader">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="24" end="368" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Class>
+    <Method classname="com.pixnotes.imageloader.ImageLoader" name="decodeFile" signature="(ZLjava/io/File;II)Landroid/graphics/Bitmap;" isStatic="false">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="183" end="248" startBytecode="0" endBytecode="819" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" start="26" end="346" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="189" end="189" startBytecode="18" endBytecode="18" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="191" end="191" startBytecode="23" endBytecode="23" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="234" end="234" startBytecode="356" endBytecode="356" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="235" end="235" startBytecode="358" endBytecode="358" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="236" end="236" startBytecode="371" endBytecode="371" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" abbrev="REC" category="STYLE">
+    <Class classname="com.pixnotes.imageloader.ImageLoader">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="24" end="368" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Class>
+    <Method classname="com.pixnotes.imageloader.ImageLoader" name="decodeFile" signature="(ZLjava/io/File;II)Landroid/graphics/Bitmap;" isStatic="false">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="183" end="248" startBytecode="0" endBytecode="819" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="234" end="234" startBytecode="356" endBytecode="356" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="245" end="245" startBytecode="403" endBytecode="403" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.pixnotes.imageloader.ImageLoader">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="24" end="368" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Class>
+    <Field classname="com.pixnotes.imageloader.ImageLoader" name="bitmapViews" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.imageloader.ImageLoader" start="28" end="28" startBytecode="40" endBytecode="40" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.pixnotes.imageloader.ImageLoader$PhotoToLoadImageView">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader$PhotoToLoadImageView" start="67" end="74" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UrF" category="STYLE">
+    <Class classname="com.pixnotes.imageloader.ImageLoader$PhotoToLoadImageView">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader$PhotoToLoadImageView" start="67" end="74" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Class>
+    <Field classname="com.pixnotes.imageloader.ImageLoader$PhotoToLoadImageView" name="id" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.imageloader.ImageLoader$PhotoToLoadImageView" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.imageloader.ImageLoader$PhotoToLoadImageView" start="71" end="71" startBytecode="28" endBytecode="28" sourcefile="ImageLoader.java" sourcepath="com/pixnotes/imageloader/ImageLoader.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.imageloader.Utils">
+      <SourceLine classname="com.pixnotes.imageloader.Utils" start="6" end="22" sourcefile="Utils.java" sourcepath="com/pixnotes/imageloader/Utils.java"/>
+    </Class>
+    <Method classname="com.pixnotes.imageloader.Utils" name="CopyStream" signature="(Ljava/io/InputStream;Ljava/io/OutputStream;)V" isStatic="true">
+      <SourceLine classname="com.pixnotes.imageloader.Utils" start="9" end="22" startBytecode="0" endBytecode="177" sourcefile="Utils.java" sourcepath="com/pixnotes/imageloader/Utils.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="com.pixnotes.views.CustomerShapeView">
+      <SourceLine classname="com.pixnotes.views.CustomerShapeView" start="25" end="44" sourcefile="CustomerShapeView.java" sourcepath="com/pixnotes/views/CustomerShapeView.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.CustomerShapeView" name="mPath" signature="Landroid/graphics/Path;" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.CustomerShapeView" sourcefile="CustomerShapeView.java" sourcepath="com/pixnotes/views/CustomerShapeView.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DMI_USING_REMOVEALL_TO_CLEAR_COLLECTION" priority="2" abbrev="DMI" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Method classname="com.pixnotes.views.DrawingView" name="resetData" signature="()V" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="196" end="217" startBytecode="0" endBytecode="69" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Method>
+    <Method classname="java.util.ArrayList" name="removeAll" signature="(Ljava/util/Collection;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.ArrayList" sourcefile="ArrayList.java" sourcepath="java/util/ArrayList.java"/>
+    </Method>
+    <Field classname="com.pixnotes.views.DrawingView" name="listIndexCornerPath" signature="Ljava/util/ArrayList;" sourceSignature="Ljava/util/ArrayList&lt;Ljava/lang/Integer;&gt;;" isStatic="false" role="FIELD_INVOKED_ON">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="197" end="197" startBytecode="15" endBytecode="15" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_USING_REMOVEALL_TO_CLEAR_COLLECTION" priority="2" abbrev="DMI" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Method classname="com.pixnotes.views.DrawingView" name="resetData" signature="()V" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="196" end="217" startBytecode="0" endBytecode="69" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Method>
+    <Method classname="java.util.ArrayList" name="removeAll" signature="(Ljava/util/Collection;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.ArrayList" sourcefile="ArrayList.java" sourcepath="java/util/ArrayList.java"/>
+    </Method>
+    <Field classname="com.pixnotes.views.DrawingView" name="listIndexPointRectangleCorner" signature="Ljava/util/ArrayList;" sourceSignature="Ljava/util/ArrayList&lt;Ljava/lang/Integer;&gt;;" isStatic="false" role="FIELD_INVOKED_ON">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="200" end="200" startBytecode="51" endBytecode="51" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_USING_REMOVEALL_TO_CLEAR_COLLECTION" priority="2" abbrev="DMI" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Method classname="com.pixnotes.views.DrawingView" name="resetData" signature="()V" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="196" end="217" startBytecode="0" endBytecode="69" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Method>
+    <Method classname="java.util.ArrayList" name="removeAll" signature="(Ljava/util/Collection;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.ArrayList" sourcefile="ArrayList.java" sourcepath="java/util/ArrayList.java"/>
+    </Method>
+    <Field classname="com.pixnotes.views.DrawingView" name="listIntersection" signature="Ljava/util/ArrayList;" sourceSignature="Ljava/util/ArrayList&lt;Lcom/pixnotes/objects/FlaotPoint;&gt;;" isStatic="false" role="FIELD_INVOKED_ON">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="199" end="199" startBytecode="39" endBytecode="39" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_USING_REMOVEALL_TO_CLEAR_COLLECTION" priority="2" abbrev="DMI" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Method classname="com.pixnotes.views.DrawingView" name="resetData" signature="()V" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="196" end="217" startBytecode="0" endBytecode="69" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Method>
+    <Method classname="java.util.ArrayList" name="removeAll" signature="(Ljava/util/Collection;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.ArrayList" sourcefile="ArrayList.java" sourcepath="java/util/ArrayList.java"/>
+    </Method>
+    <Field classname="com.pixnotes.views.DrawingView" name="listPoint" signature="Ljava/util/ArrayList;" sourceSignature="Ljava/util/ArrayList&lt;Lcom/pixnotes/objects/FlaotPoint;&gt;;" isStatic="false" role="FIELD_INVOKED_ON">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="198" end="198" startBytecode="27" endBytecode="27" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="NM_FIELD_NAMING_CONVENTION" priority="2" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.DrawingView" name="PaintDebug" signature="Landroid/graphics/Paint;" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Method classname="com.pixnotes.views.DrawingView" name="LoadImageEdit" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="136" end="148" startBytecode="0" endBytecode="152" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Method classname="com.pixnotes.views.DrawingView" name="MoveShape" signature="(II)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="343" end="382" startBytecode="0" endBytecode="632" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Method classname="com.pixnotes.views.DrawingView" name="MoveShape" signature="(II)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="343" end="382" startBytecode="0" endBytecode="632" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="343" end="378" startBytecode="4" endBytecode="327" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Method classname="com.pixnotes.views.DrawingView" name="onTouchEvent" signature="(Landroid/view/MotionEvent;)Z" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="539" end="556" startBytecode="0" endBytecode="191" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="542" end="553" startBytecode="14" endBytecode="73" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.DrawingView" name="HorizontalDirection" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="41" end="41" startBytecode="56" endBytecode="56" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.DrawingView" name="SquareCornerRoot_180_Degrees" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="45" end="45" startBytecode="79" endBytecode="79" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.DrawingView" name="SquareCornerRoot_360_Degrees" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="46" end="46" startBytecode="86" endBytecode="86" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.DrawingView" name="SquareCornerRoot_90_Degrees" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="44" end="44" startBytecode="72" endBytecode="72" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.DrawingView" name="VerticalDirection" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="42" end="42" startBytecode="61" endBytecode="61" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.DrawingView" name="mValue_Degrees_Deviation" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="47" end="47" startBytecode="92" endBytecode="92" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UrF" category="STYLE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.DrawingView" name="detalX" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="69" end="69" startBytecode="239" endBytecode="239" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UrF" category="STYLE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.DrawingView" name="detalY" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="70" end="70" startBytecode="244" endBytecode="244" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UrF" category="STYLE">
+    <Class classname="com.pixnotes.views.DrawingView">
+      <SourceLine classname="com.pixnotes.views.DrawingView" start="34" end="923" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.DrawingView" name="indexPointSixRectangle" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.DrawingView" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.DrawingView" start="54" end="54" startBytecode="127" endBytecode="127" sourcefile="DrawingView.java" sourcepath="com/pixnotes/views/DrawingView.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
+    <Class classname="com.pixnotes.views.RectangleObject">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" start="14" end="105" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Class>
+    <Method classname="com.pixnotes.views.RectangleObject" name="&lt;init&gt;" signature="(Landroid/content/Context;IIIIILandroid/graphics/Paint;)V" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" start="28" end="70" startBytecode="0" endBytecode="798" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Method>
+    <SourceLine classname="com.pixnotes.views.RectangleObject" start="42" end="65" startBytecode="177" endBytecode="469" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.RectangleObject">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" start="14" end="105" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.RectangleObject" name="FIXDOT" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.RectangleObject" start="17" end="17" startBytecode="18" endBytecode="18" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.RectangleObject">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" start="14" end="105" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.RectangleObject" name="idDotEight" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.RectangleObject" start="26" end="26" startBytecode="60" endBytecode="60" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.RectangleObject">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" start="14" end="105" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.RectangleObject" name="idDotFive" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.RectangleObject" start="23" end="23" startBytecode="43" endBytecode="43" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.RectangleObject">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" start="14" end="105" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.RectangleObject" name="idDotFour" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.RectangleObject" start="22" end="22" startBytecode="38" endBytecode="38" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.RectangleObject">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" start="14" end="105" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.RectangleObject" name="idDotOne" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.RectangleObject" start="19" end="19" startBytecode="23" endBytecode="23" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.RectangleObject">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" start="14" end="105" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.RectangleObject" name="idDotSeven" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.RectangleObject" start="25" end="25" startBytecode="54" endBytecode="54" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.RectangleObject">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" start="14" end="105" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.RectangleObject" name="idDotSix" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.RectangleObject" start="24" end="24" startBytecode="48" endBytecode="48" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.RectangleObject">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" start="14" end="105" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.RectangleObject" name="idDotThree" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.RectangleObject" start="21" end="21" startBytecode="33" endBytecode="33" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE">
+    <Class classname="com.pixnotes.views.RectangleObject">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" start="14" end="105" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Class>
+    <Field classname="com.pixnotes.views.RectangleObject" name="idDotTwo" signature="I" isStatic="false">
+      <SourceLine classname="com.pixnotes.views.RectangleObject" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+    </Field>
+    <SourceLine classname="com.pixnotes.views.RectangleObject" start="20" end="20" startBytecode="28" endBytecode="28" sourcefile="RectangleObject.java" sourcepath="com/pixnotes/views/RectangleObject.java"/>
+  </BugInstance>
+  <Errors errors="1" missingClasses="94">
+    <Error>
+      <ErrorMessage>File not found: filesystem:/Volumes/Data/Project/rd_products/pixNotes/Android/PixNotes/${android.jar}</ErrorMessage>
+    </Error>
+    <MissingClass>android.app.Activity</MissingClass>
+    <MissingClass>android.app.ListActivity</MissingClass>
+    <MissingClass>android.content.ContentResolver</MissingClass>
+    <MissingClass>android.content.Context</MissingClass>
+    <MissingClass>android.content.Intent</MissingClass>
+    <MissingClass>android.content.SharedPreferences</MissingClass>
+    <MissingClass>android.content.SharedPreferences$Editor</MissingClass>
+    <MissingClass>android.content.res.ColorStateList</MissingClass>
+    <MissingClass>android.content.res.Resources</MissingClass>
+    <MissingClass>android.content.res.Resources$Theme</MissingClass>
+    <MissingClass>android.content.res.TypedArray</MissingClass>
+    <MissingClass>android.database.Cursor</MissingClass>
+    <MissingClass>android.graphics.Bitmap</MissingClass>
+    <MissingClass>android.graphics.Bitmap$Config</MissingClass>
+    <MissingClass>android.graphics.BitmapFactory</MissingClass>
+    <MissingClass>android.graphics.BitmapFactory$Options</MissingClass>
+    <MissingClass>android.graphics.Canvas</MissingClass>
+    <MissingClass>android.graphics.Color</MissingClass>
+    <MissingClass>android.graphics.CornerPathEffect</MissingClass>
+    <MissingClass>android.graphics.Matrix</MissingClass>
+    <MissingClass>android.graphics.Paint</MissingClass>
+    <MissingClass>android.graphics.Paint$Cap</MissingClass>
+    <MissingClass>android.graphics.Paint$Join</MissingClass>
+    <MissingClass>android.graphics.Paint$Style</MissingClass>
+    <MissingClass>android.graphics.Path</MissingClass>
+    <MissingClass>android.graphics.PathMeasure</MissingClass>
+    <MissingClass>android.graphics.Point</MissingClass>
+    <MissingClass>android.graphics.PorterDuff$Mode</MissingClass>
+    <MissingClass>android.graphics.PorterDuffXfermode</MissingClass>
+    <MissingClass>android.graphics.Rect</MissingClass>
+    <MissingClass>android.graphics.Typeface</MissingClass>
+    <MissingClass>android.graphics.drawable.BitmapDrawable</MissingClass>
+    <MissingClass>android.graphics.drawable.Drawable</MissingClass>
+    <MissingClass>android.net.ConnectivityManager</MissingClass>
+    <MissingClass>android.net.NetworkInfo</MissingClass>
+    <MissingClass>android.net.Uri</MissingClass>
+    <MissingClass>android.os.Build</MissingClass>
+    <MissingClass>android.os.Build$VERSION</MissingClass>
+    <MissingClass>android.os.Bundle</MissingClass>
+    <MissingClass>android.os.Environment</MissingClass>
+    <MissingClass>android.os.Handler</MissingClass>
+    <MissingClass>android.os.Parcel</MissingClass>
+    <MissingClass>android.preference.PreferenceActivity</MissingClass>
+    <MissingClass>android.provider.MediaStore$Images$Media</MissingClass>
+    <MissingClass>android.support.v4.app.FragmentActivity</MissingClass>
+    <MissingClass>android.support.v4.view.KeyEventCompat</MissingClass>
+    <MissingClass>android.support.v4.view.MotionEventCompat</MissingClass>
+    <MissingClass>android.support.v4.view.VelocityTrackerCompat</MissingClass>
+    <MissingClass>android.support.v4.view.ViewCompat</MissingClass>
+    <MissingClass>android.support.v4.view.ViewConfigurationCompat</MissingClass>
+    <MissingClass>android.text.Layout</MissingClass>
+    <MissingClass>android.text.Layout$Alignment</MissingClass>
+    <MissingClass>android.text.StaticLayout</MissingClass>
+    <MissingClass>android.text.TextPaint</MissingClass>
+    <MissingClass>android.text.TextUtils</MissingClass>
+    <MissingClass>android.util.DisplayMetrics</MissingClass>
+    <MissingClass>android.util.FloatMath</MissingClass>
+    <MissingClass>android.util.Log</MissingClass>
+    <MissingClass>android.util.TypedValue</MissingClass>
+    <MissingClass>android.view.Display</MissingClass>
+    <MissingClass>android.view.FocusFinder</MissingClass>
+    <MissingClass>android.view.KeyEvent</MissingClass>
+    <MissingClass>android.view.LayoutInflater</MissingClass>
+    <MissingClass>android.view.MotionEvent</MissingClass>
+    <MissingClass>android.view.SoundEffectConstants</MissingClass>
+    <MissingClass>android.view.VelocityTracker</MissingClass>
+    <MissingClass>android.view.View</MissingClass>
+    <MissingClass>android.view.View$BaseSavedState</MissingClass>
+    <MissingClass>android.view.View$MeasureSpec</MissingClass>
+    <MissingClass>android.view.View$OnClickListener</MissingClass>
+    <MissingClass>android.view.ViewConfiguration</MissingClass>
+    <MissingClass>android.view.ViewGroup</MissingClass>
+    <MissingClass>android.view.ViewGroup$LayoutParams</MissingClass>
+    <MissingClass>android.view.ViewParent</MissingClass>
+    <MissingClass>android.view.Window</MissingClass>
+    <MissingClass>android.view.WindowManager</MissingClass>
+    <MissingClass>android.view.animation.Interpolator</MissingClass>
+    <MissingClass>android.widget.AdapterView$OnItemClickListener</MissingClass>
+    <MissingClass>android.widget.BaseAdapter</MissingClass>
+    <MissingClass>android.widget.Button</MissingClass>
+    <MissingClass>android.widget.CompoundButton</MissingClass>
+    <MissingClass>android.widget.CompoundButton$OnCheckedChangeListener</MissingClass>
+    <MissingClass>android.widget.FrameLayout</MissingClass>
+    <MissingClass>android.widget.Gallery</MissingClass>
+    <MissingClass>android.widget.ImageView</MissingClass>
+    <MissingClass>android.widget.LinearLayout</MissingClass>
+    <MissingClass>android.widget.ListView</MissingClass>
+    <MissingClass>android.widget.RelativeLayout</MissingClass>
+    <MissingClass>android.widget.RelativeLayout$LayoutParams</MissingClass>
+    <MissingClass>android.widget.Scroller</MissingClass>
+    <MissingClass>android.widget.SeekBar</MissingClass>
+    <MissingClass>android.widget.SeekBar$OnSeekBarChangeListener</MissingClass>
+    <MissingClass>android.widget.TextView</MissingClass>
+    <MissingClass>android.widget.Toast</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Tue, 3 Dec 2013 10:58:54 +0700" total_classes="80" referenced_classes="128" total_bugs="81" total_size="5536" num_packages="9" vm_version="20.65-b04-462" cpu_seconds="34.41" clock_seconds="11.84" peak_mbytes="99.59" alloc_mbytes="123.94" gc_seconds="0.40" priority_2="74" priority_1="7">
+    <PackageStats package="com.jeremyfeinstein.slidingmenu.lib" total_bugs="6" total_types="24" total_size="1339" priority_2="6">
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder" sourceFile="CanvasTransformerBuilder.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$1" sourceFile="CanvasTransformerBuilder.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$2" sourceFile="CanvasTransformerBuilder.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$3" sourceFile="CanvasTransformerBuilder.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$4" sourceFile="CanvasTransformerBuilder.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$5" sourceFile="CanvasTransformerBuilder.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$6" sourceFile="CanvasTransformerBuilder.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove" sourceFile="CustomViewAbove.java" interface="false" size="517" bugs="3" priority_2="3"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$1" sourceFile="CustomViewAbove.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$2" sourceFile="CustomViewAbove.java" interface="false" size="11" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$OnPageChangeListener" sourceFile="CustomViewAbove.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$SimpleOnPageChangeListener" sourceFile="CustomViewAbove.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind" sourceFile="CustomViewBehind.java" interface="false" size="304" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.MenuInterface" sourceFile="MenuInterface.java" interface="true" size="13" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu" sourceFile="SlidingMenu.java" interface="false" size="309" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$1" sourceFile="SlidingMenu.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$2" sourceFile="SlidingMenu.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$CanvasTransformer" sourceFile="SlidingMenu.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnCloseListener" sourceFile="SlidingMenu.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnClosedListener" sourceFile="SlidingMenu.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnOpenListener" sourceFile="SlidingMenu.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnOpenedListener" sourceFile="SlidingMenu.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$SavedState" sourceFile="SlidingMenu.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$SavedState$1" sourceFile="SlidingMenu.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jeremyfeinstein.slidingmenu.lib.app" total_bugs="0" total_types="7" total_size="352">
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity" sourceFile="SlidingActivity.java" interface="false" size="62" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivityBase" sourceFile="SlidingActivityBase.java" interface="true" size="10" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivityHelper" sourceFile="SlidingActivityHelper.java" interface="false" size="78" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivityHelper$1" sourceFile="SlidingActivityHelper.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity" sourceFile="SlidingFragmentActivity.java" interface="false" size="62" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.app.SlidingListActivity" sourceFile="SlidingListActivity.java" interface="false" size="65" bugs="0"/>
+      <ClassStats class="com.jeremyfeinstein.slidingmenu.lib.app.SlidingPreferenceActivity" sourceFile="SlidingPreferenceActivity.java" interface="false" size="62" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.pixnotes" total_bugs="21" total_types="29" total_size="1318" priority_2="19" priority_1="2">
+      <ClassStats class="com.pixnotes.BaseActivity" sourceFile="BaseActivity.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.pixnotes.BuildConfig" sourceFile="BuildConfig.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.pixnotes.CaptureImageActivity" sourceFile="CaptureImageActivity.java" interface="false" size="110" bugs="1" priority_2="1"/>
+      <ClassStats class="com.pixnotes.CaptureImageActivity$1" sourceFile="CaptureImageActivity.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.pixnotes.CaptureImageActivity$ImageAdapter" sourceFile="CaptureImageActivity.java" interface="false" size="32" bugs="3" priority_2="3"/>
+      <ClassStats class="com.pixnotes.ExportActivity" sourceFile="ExportActivity.java" interface="false" size="77" bugs="1" priority_2="1"/>
+      <ClassStats class="com.pixnotes.ExportActivity$1" sourceFile="ExportActivity.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.pixnotes.MainActivity" sourceFile="MainActivity.java" interface="false" size="190" bugs="2" priority_2="2"/>
+      <ClassStats class="com.pixnotes.MainActivity$1" sourceFile="MainActivity.java" interface="false" size="12" bugs="1" priority_2="1"/>
+      <ClassStats class="com.pixnotes.MainActivity$BehindMenuAdapter" sourceFile="MainActivity.java" interface="false" size="42" bugs="4" priority_2="2" priority_1="2"/>
+      <ClassStats class="com.pixnotes.R" sourceFile="R.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$anim" sourceFile="R.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$array" sourceFile="R.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$attr" sourceFile="R.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$color" sourceFile="R.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$dimen" sourceFile="R.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$drawable" sourceFile="R.java" interface="false" size="60" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$id" sourceFile="R.java" interface="false" size="109" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$layout" sourceFile="R.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$menu" sourceFile="R.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$string" sourceFile="R.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$style" sourceFile="R.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.pixnotes.R$styleable" sourceFile="R.java" interface="false" size="51" bugs="3" priority_2="3"/>
+      <ClassStats class="com.pixnotes.SendEmailActivity" sourceFile="SendEmailActivity.java" interface="false" size="77" bugs="1" priority_2="1"/>
+      <ClassStats class="com.pixnotes.SendEmailActivity$1" sourceFile="SendEmailActivity.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.pixnotes.SettingActivity" sourceFile="SettingActivity.java" interface="false" size="165" bugs="3" priority_2="3"/>
+      <ClassStats class="com.pixnotes.SettingActivity$1" sourceFile="SettingActivity.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.pixnotes.SettingPaintActivity" sourceFile="SettingPaintActivity.java" interface="false" size="132" bugs="2" priority_2="2"/>
+      <ClassStats class="com.pixnotes.SettingPaintActivity$1" sourceFile="SettingPaintActivity.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.pixnotes.common" total_bugs="15" total_types="5" total_size="1470" priority_2="11" priority_1="4">
+      <ClassStats class="com.pixnotes.common.Geometry" sourceFile="Geometry.java" interface="false" size="524" bugs="1" priority_2="1"/>
+      <ClassStats class="com.pixnotes.common.MySwitch" sourceFile="MySwitch.java" interface="false" size="760" bugs="9" priority_2="9"/>
+      <ClassStats class="com.pixnotes.common.MySwitch$OnChangeAttemptListener" sourceFile="MySwitch.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.pixnotes.common.PreferenceConnector" sourceFile="PreferenceConnector.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="com.pixnotes.common.Utilities" sourceFile="Utilities.java" interface="false" size="144" bugs="5" priority_2="1" priority_1="4"/>
+    </PackageStats>
+    <PackageStats package="com.pixnotes.configsapp" total_bugs="0" total_types="1" total_size="29">
+      <ClassStats class="com.pixnotes.configsapp.Configs" sourceFile="Configs.java" interface="false" size="29" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.pixnotes.imageloader" total_bugs="10" total_types="7" total_size="276" priority_2="9" priority_1="1">
+      <ClassStats class="com.pixnotes.imageloader.FileCache" sourceFile="FileCache.java" interface="false" size="21" bugs="2" priority_2="2"/>
+      <ClassStats class="com.pixnotes.imageloader.ImageLoader" sourceFile="ImageLoader.java" interface="false" size="133" bugs="5" priority_2="4" priority_1="1"/>
+      <ClassStats class="com.pixnotes.imageloader.ImageLoader$BitmapDisplayerImageView" sourceFile="ImageLoader.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.pixnotes.imageloader.ImageLoader$PhotoToLoadImageView" sourceFile="ImageLoader.java" interface="false" size="17" bugs="2" priority_2="2"/>
+      <ClassStats class="com.pixnotes.imageloader.ImageLoader$PhotosLoaderImageView" sourceFile="ImageLoader.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.pixnotes.imageloader.MemoryCache" sourceFile="MemoryCache.java" interface="false" size="56" bugs="0"/>
+      <ClassStats class="com.pixnotes.imageloader.Utils" sourceFile="Utils.java" interface="false" size="13" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.pixnotes.interfaceconstructe" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="com.pixnotes.interfaceconstructe.ListenerEventUpdate" sourceFile="ListenerEventUpdate.java" interface="true" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.pixnotes.objects" total_bugs="0" total_types="2" total_size="27">
+      <ClassStats class="com.pixnotes.objects.DeviceObject" sourceFile="DeviceObject.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.pixnotes.objects.FlaotPoint" sourceFile="FlaotPoint.java" interface="false" size="18" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.pixnotes.views" total_bugs="29" total_types="4" total_size="722" priority_2="29">
+      <ClassStats class="com.pixnotes.views.CustomerShapeView" sourceFile="CustomerShapeView.java" interface="false" size="26" bugs="1" priority_2="1"/>
+      <ClassStats class="com.pixnotes.views.DotObject" sourceFile="DotObject.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="com.pixnotes.views.DrawingView" sourceFile="DrawingView.java" interface="false" size="564" bugs="18" priority_2="18"/>
+      <ClassStats class="com.pixnotes.views.RectangleObject" sourceFile="RectangleObject.java" interface="false" size="75" bugs="10" priority_2="10"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="725" invocations="674" avgMicrosecondsPerInvocation="1076" maxMicrosecondsPerInvocation="45773" standardDeviationMircosecondsPerInvocation="3194"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="700" invocations="648" avgMicrosecondsPerInvocation="1081" maxMicrosecondsPerInvocation="65607" standardDeviationMircosecondsPerInvocation="3554"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="693" invocations="646" avgMicrosecondsPerInvocation="1073" maxMicrosecondsPerInvocation="124271" standardDeviationMircosecondsPerInvocation="5356"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="674" invocations="645" avgMicrosecondsPerInvocation="1045" maxMicrosecondsPerInvocation="27519" standardDeviationMircosecondsPerInvocation="2599"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="663" invocations="692" avgMicrosecondsPerInvocation="958" maxMicrosecondsPerInvocation="47956" standardDeviationMircosecondsPerInvocation="2930"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="559" invocations="652" avgMicrosecondsPerInvocation="858" maxMicrosecondsPerInvocation="55187" standardDeviationMircosecondsPerInvocation="3003"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="504" invocations="128" avgMicrosecondsPerInvocation="3938" maxMicrosecondsPerInvocation="37696" standardDeviationMircosecondsPerInvocation="7406"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="405" invocations="840" avgMicrosecondsPerInvocation="482" maxMicrosecondsPerInvocation="20448" standardDeviationMircosecondsPerInvocation="1394"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="400" invocations="648" avgMicrosecondsPerInvocation="618" maxMicrosecondsPerInvocation="31788" standardDeviationMircosecondsPerInvocation="1900"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="298" invocations="527" avgMicrosecondsPerInvocation="566" maxMicrosecondsPerInvocation="19729" standardDeviationMircosecondsPerInvocation="1339"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="285" invocations="695" avgMicrosecondsPerInvocation="411" maxMicrosecondsPerInvocation="37295" standardDeviationMircosecondsPerInvocation="2178"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="222" invocations="648" avgMicrosecondsPerInvocation="342" maxMicrosecondsPerInvocation="6572" standardDeviationMircosecondsPerInvocation="783"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="180" invocations="80" avgMicrosecondsPerInvocation="2252" maxMicrosecondsPerInvocation="118263" standardDeviationMircosecondsPerInvocation="13109"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="179" invocations="128" avgMicrosecondsPerInvocation="1400" maxMicrosecondsPerInvocation="30151" standardDeviationMircosecondsPerInvocation="3478"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="152" invocations="678" avgMicrosecondsPerInvocation="224" maxMicrosecondsPerInvocation="59675" standardDeviationMircosecondsPerInvocation="2387"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="129" invocations="633" avgMicrosecondsPerInvocation="205" maxMicrosecondsPerInvocation="4466" standardDeviationMircosecondsPerInvocation="395"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="128" invocations="128" avgMicrosecondsPerInvocation="1001" maxMicrosecondsPerInvocation="22570" standardDeviationMircosecondsPerInvocation="2407"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="121" invocations="543" avgMicrosecondsPerInvocation="224" maxMicrosecondsPerInvocation="6843" standardDeviationMircosecondsPerInvocation="489"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="106" invocations="215" avgMicrosecondsPerInvocation="496" maxMicrosecondsPerInvocation="40298" standardDeviationMircosecondsPerInvocation="2782"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="103" invocations="128" avgMicrosecondsPerInvocation="809" maxMicrosecondsPerInvocation="6864" standardDeviationMircosecondsPerInvocation="1247"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="101" invocations="128" avgMicrosecondsPerInvocation="793" maxMicrosecondsPerInvocation="17355" standardDeviationMircosecondsPerInvocation="1960"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="85" invocations="128" avgMicrosecondsPerInvocation="664" maxMicrosecondsPerInvocation="10395" standardDeviationMircosecondsPerInvocation="1320"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="84" invocations="80" avgMicrosecondsPerInvocation="1052" maxMicrosecondsPerInvocation="17045" standardDeviationMircosecondsPerInvocation="2557"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="82" invocations="80" avgMicrosecondsPerInvocation="1033" maxMicrosecondsPerInvocation="11116" standardDeviationMircosecondsPerInvocation="2242"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="79" invocations="80" avgMicrosecondsPerInvocation="995" maxMicrosecondsPerInvocation="14479" standardDeviationMircosecondsPerInvocation="2489"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="79" invocations="80" avgMicrosecondsPerInvocation="987" maxMicrosecondsPerInvocation="13141" standardDeviationMircosecondsPerInvocation="2213"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="74" invocations="7012" avgMicrosecondsPerInvocation="10" maxMicrosecondsPerInvocation="1144" standardDeviationMircosecondsPerInvocation="29"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

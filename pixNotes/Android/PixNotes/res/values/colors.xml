@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_header">#1f2326</color>
+    <color name="post_item_key_background">#2AB7F0</color>
+    <color name="post_item_value_background">#F0F0F0</color>
+    <color name="post_item_value_textcolor">#747474</color>
+    <color name="seller_detail_background">#F0F0F0</color>
+    <color name="seller_detail_key_textcolor">#464646</color>
+    <color name="seller_detail_value_textcolor">#ABABAB</color>
+    <color name="seller_detail_mobile_textcolor">#48AFF7</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="transparent_background_template">#FF3b3b3b</color>
+    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    <color name="lightgrey">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_listview">#323a3d</color>
+    
+   
+    <color name="darkgrey">#303030</color>
+    <color name="lightblack">#404040</color>
+    <color name="darkorange">#F88017</color>
+    <color name="orange">#FF9900</color>
+    <color name="green">#3CB371</color>
+    <color name="IndianRed">#CD5C5C</color>
+    
+    <color name="background_subscreen">#414663</color>
+    <color name="background_store">#FEE1AC</color>
+    <color name="background_grak">#CBCBCB</color>
+	<color name="background_capture_image">#75000000</color>
+	<color name="background_transparent">#00000000</color>
+	<color name="background_theme">#323a3d</color>
+	<color name="text_color">#FFFFFF</color>
+	<color name="gray_insert_Image_dialog_color">#2b2a2a</color>
+	<color name="gray_bottom_description_color">#232122</color>
+	
+	<color name="blue">#33b5e5</color>
+    <color name="darkblue">#0099cc</color>
+    <color name="red">#ff4444</color>
+    <color name="grayStart">#adadad</color>
+    <color name="grayEnd">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg_handle_pressed">#a0a0a0</color>
+     <color name="skip">#00a57d</color>
+	<color name="start">#2980b9</color>
+</resources>

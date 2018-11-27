@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_capture_image"
+    android:gravity="center"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/com.pixnotes">
+
+    <!-- <Gallery 
+			android:id="@+id/mygallery" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:spacing="@dimen/margin_15dp"/>  -->
+    
+    <it.sephiroth.android.library.widget.HListView
+        android:id="@+id/mygallery"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height_size_300dp"
+        android:background="#11000000"
+        android:gravity="center" 
+        app:dividerWidth="20dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/ln_btn_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal" 
+        android:layout_marginTop="@dimen/margin_10dp">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50" >
+
+            <ImageView
+                android:id="@+id/img_capture"
+                android:layout_width="@dimen/width_30dp"
+                android:layout_height="@dimen/width_30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:background="@drawable/camera" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50" >
+
+            <ImageView
+                android:id="@+id/img_insert_photo"
+                android:layout_width="@dimen/width_30dp"
+                android:layout_height="@dimen/width_30dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:background="@drawable/insert_images" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

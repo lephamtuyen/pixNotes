@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="header_height">45dp</dimen>
+     <dimen name="bottom_height">40dp</dimen>
+    <dimen name="header_delete_height">65dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+   
+    <dimen name="margin_negative_15dp">-15dp</dimen>
+    <dimen name="margin_negative_30dp">-30dp</dimen>
+    <dimen name="margin_1dp">1dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_3dp">3dp</dimen>
+	<dimen name="margin_5dp">5dp</dimen>
+	<dimen name="margin_6dp">6dp</dimen>
+	<dimen name="margin_8dp">8dp</dimen>
+	<dimen name="margin_10dp">10dp</dimen>
+	<dimen name="margin_15dp">15dp</dimen>
+	<dimen name="margin_20dp">20dp</dimen>
+	<dimen name="margin_30dp">30dp</dimen>
+	<dimen name="margin_40dp">40dp</dimen>
+	<dimen name="margin_45dp">45dp</dimen>
+	<dimen name="margin_50dp">50dp</dimen>
+	<dimen name="margin_60dp">60dp</dimen>
+	<dimen name="margin_70dp">70dp</dimen>
+	<dimen name="margin_80dp">80dp</dimen>
+	<dimen name="margin_220dp">220dp</dimen>
+	<dimen name="text_size_10dp">10dp</dimen>
+	<dimen name="text_size_12dp">12dp</dimen>
+	<dimen name="text_size_14dp">14dp</dimen>
+	<dimen name="text_size_15dp">15dp</dimen>
+	<dimen name="text_size_16dp">16dp</dimen>
+	<dimen name="text_size_17dp">17dp</dimen>
+	<dimen name="text_size_18dp">18dp</dimen>
+	<dimen name="text_size_20dp">20dp</dimen>
+	<dimen name="image_height_size_80dp">80dp</dimen>
+	<dimen name="height_bottom_bar_50dp">50dp</dimen>
+	<dimen name="load_more_progress_bar_height">20dp</dimen>
+    <dimen name="load_more_progress_bar_width">20dp</dimen>
+    <dimen name="load_more_height">50dp</dimen>
+     <dimen name="height_15dp">15dp</dimen>
+     <dimen name="height_30dp">30dp</dimen>
+    <dimen name="height_40dp">40dp</dimen>
+    <dimen name="height_37dp">37dp</dimen>
+    <dimen name="width_height_45dp">45dp</dimen>
+    <dimen name="width_height_60dp">60dp</dimen>
+    <dimen name="width_height_imagegridview_160px">160px</dimen>
+    <dimen name="height_5dp">5dp</dimen>
+     <dimen name="width_60dp">60dp</dimen>
+    <dimen name="width_70dp">70dp</dimen>
+    <dimen name="width_80dp">80dp</dimen>
+    <dimen name="width_200dp">200dp</dimen>
+    <dimen name="width_150dp">150dp</dimen>
+    <dimen name="height_50dp">50dp</dimen>
+    <dimen name="height_60dp">60dp</dimen>
+    <dimen name="height_70dp">70dp</dimen>
+    <dimen name="height_80dp">80dp</dimen>
+    <dimen name="height_90dp">90dp</dimen>
+    <dimen name="height_120dp">120dp</dimen>
+    <dimen name="height_150dp">150dp</dimen>
+	<dimen name="width_30dp">30dp</dimen>
+	<dimen name="width_40dp">40dp</dimen>
+	<dimen name="width_44dp">44dp</dimen>
+	<dimen name="height_25dp">25dp</dimen>
+	<dimen name="text_size_25dp">25dp</dimen>
+	<dimen name="width_15dp">15dp</dimen>
+	<dimen name="width_20dp">20dp</dimen>
+	<dimen name="width_10dp">10dp</dimen>
+	<dimen name="width_8dp">8dp</dimen>
+	<dimen name="width_50dp">50dp</dimen>
+	<dimen name="image_width_size_80dp">80dp</dimen>
+	<dimen name="image_height_size_110dp">110dp</dimen>
+	<dimen name="image_width_size_120dp">120dp</dimen>
+	<dimen name="image_height_size_100dp">100dp</dimen>
+	<dimen name="image_width_size_100dp">100dp</dimen>
+	<dimen name="image_height_size_120dp">120dp</dimen>
+	<dimen name="image_width_size_180dp">180dp</dimen>
+	<dimen name="image_height_size_240dp">240dp</dimen>
+	<dimen name="image_height_size_300dp">300dp</dimen>
+	<dimen name="height_1dp">1dp</dimen>
+	<dimen name="height_2dp">2dp</dimen>
+	<dimen name="height_3dp">3dp</dimen>
+	<dimen name="height_4dp">4dp</dimen>
+	<dimen name="height_6dp">6dp</dimen>
+	
+	<dimen name="item_height">67dp</dimen>
+    <dimen name="section_div_height">20dp</dimen>
+     
+    <dimen name="width_400dp">400dp</dimen>
+    <dimen name="width_430dp">430dp</dimen>
+    <dimen name="height_550dp">550dp</dimen>
+    <dimen name="width_380dp">380dp</dimen>
+    
+</resources>

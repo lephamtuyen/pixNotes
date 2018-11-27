@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB794BD3-6239-476A-BAEE-506EAEC5A7A3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>pixNotes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A8D5A34D-78B1-4CF0-A047-786235A5D25D</key>
+		<string>http://cms.kms-technology.com/svn/rd_products/pixNotes</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/pixNotes/pixNotes.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A8D5A34D-78B1-4CF0-A047-786235A5D25D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>A8D5A34D-78B1-4CF0-A047-786235A5D25D</key>
+		<string>http://cms.kms-technology.com/svn/rd_products</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://cms.kms-technology.com/svn/rd_products/pixNotes/iOS/pixNotes/pixNotes.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A8D5A34D-78B1-4CF0-A047-786235A5D25D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A8D5A34D-78B1-4CF0-A047-786235A5D25D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pixNotes</string>
+		</dict>
+	</array>
+</dict>
+</plist>

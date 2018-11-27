@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+    		 android:layout_height="wrap_content"
+    		 android:background="@color/background_theme">
+
+   <RelativeLayout
+            android:id="@+id/back"
+            android:tag="back"
+           	android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_40dp"
+            >
+		<Button
+                android:layout_width="@dimen/width_70dp"
+                android:id="@+id/btn_delete"
+                android:text="@string/str_delete"
+                android:layout_height="@dimen/height_30dp"
+                android:layout_alignParentRight="true"
+                android:background="@color/red"
+                android:layout_marginTop="8dp"/>
+    </RelativeLayout> 
+
+    <RelativeLayout
+            android:id="@+id/front"
+            android:tag="front"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_40dp"
+            android:background="@color/background_theme"
+            >
+	     <RelativeLayout 
+	     android:layout_width="fill_parent"
+	     android:layout_height="@dimen/height_37dp"
+	     >
+	        <TextView 
+		    android:id="@+id/tv_projectname"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_toLeftOf="@+id/arrow"
+		    android:text=""
+		    android:layout_centerVertical="true"
+		    android:textColor="@color/text_color"
+		    android:textSize="@dimen/text_size_20dp"
+		    />
+	    	<ImageView 
+	        android:id="@+id/arrow"
+	        android:layout_width="@dimen/width_30dp"
+	        android:layout_height="@dimen/width_30dp"
+	        android:background="@drawable/arrow"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        />
+	     </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
